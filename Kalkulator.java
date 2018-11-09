@@ -18,6 +18,33 @@ public class Calculator {
         // TODO code application logic here
     }
     
+<<<<<<< HEAD
+    public float plus(float a, float b){
+        return a+b;
+        
+    }
+    public float minus(float a, float b){
+        return a-b;
+        
+    }
+    
+    public float multiplication(float a, float b){
+        return a*b;
+        
+=======
+    public float plus(float a,float b){
+        return a+b;
+    }
+    
+    public float minus(float a,float b){
+        return a-b;
+    }
+    
+    //Firman yang edit
+    public float multiply(float a,float b){
+        return a*b;
+>>>>>>> master
+    }
     
     public float division(float a,float b){
         return a/b;
