@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package calculator;
 
 /**
  *
  * @author i16041
  */
-public class Calculator {
+public class Kalkulator {
 
     /**
      * @param args the command line arguments
@@ -36,7 +35,7 @@ public class Calculator {
     }
 	
 	public float min(float a, float b){
-		return mint(a,b);
+		return Math.min(a,b);
     
 	public float max(float a,float b){
 		return Math.max(a,b);
